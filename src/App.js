@@ -57,7 +57,7 @@ function App() {
           </Form>
         </Formik>
 
-        {balance != '' ? <Balance>Balance final: {balance}</Balance> : null}
+        {balance !== '' ? <Balance>Balance final: {balance}</Balance> : null}
       </Section>
     </Container>
   )
